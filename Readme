@@ -1,0 +1,27 @@
+Usage:
+
+Each command consists of two blocks, the command, and any needed information as such.
+
+[command] [values]
+
+list:
+The list command can be used to look up any specific quantity for a column as such.
+list [query]=[value]
+It can also be used to list all values.
+list all
+
+sort:
+The sort command can be used to sort the list by the given arguement as such.
+sort [arguement]
+
+remove:
+The remove function removes an item in the list by giving a specifier and value.
+remove [arguement]=[value]
+
+set:
+The set function changes a value of an item when given an existing arguement and value along with a new arguement and value.
+set [newarg]=[newval]:[oldarg]=[oldval]
+
+add:
+The add function adds an element to the list when given all of the data.
+add {'PartID':[ID],'Description':[Des],'Footprint':[Foot],'Quantity':[Quant]}
